@@ -5,7 +5,7 @@ We will read the applicants_data.csv file into a Pandas DataFrame. Review the Da
 We will then drop the “EIN” (Employer Identification Number) and “NAME” columns from the DataFrame, because they’re irrelevant for the binary classification model.
 We will then  encode the categorical variables of the dataset by using OneHotEncoder, and then place the encoded variables in a new DataFrame.
 We will then add the numerical variables of the original DataFrame to the DataFrame that contains the encoded variables.
-Using the preprocessed data, create the features (X) and target (y) datasets. The “IS_SUCCESSFUL” column in the preprocessed DataFrame should define the target dataset. The remaining columns should define the features dataset.
+Using the preprocessed data, create the features (X) and target (y) datasets. . The remaining columns define the features dataset.
 Then Split the features and target datasets into training and testing datasets.
 Use StandardScaler from scikit-learn to scale the features data.
 
