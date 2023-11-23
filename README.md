@@ -1,5 +1,5 @@
 # Module-13-Challenge
-In this repository you will find a .ipynb file named Venture_Fund_Deep_Learning, in this file we want to assume the role of a risk management associate at Alphabet Soup, a fictitious venture capital firm. The Alphabet Soup business team receives many funding applications from startups every day. This team has asked you to help them create a model that predicts whether applicants will become successful if funded by Alphabet Soup.
+In this repository you will find a .ipynb file named Venture_Fund_Deep_Learning, in this file we assume the role of a risk management associate at Alphabet Soup, a fictitious venture capital firm. The Alphabet Soup business team receives many funding applications from startups every day. This team has asked you to help them create a model that predicts whether applicants will become successful if funded by Alphabet Soup.
 # Part 1 Prepare the Data for Use on a Neural Network Model
 We will read the applicants_data.csv file into a Pandas DataFrame. Review the DataFrame, checking for categorical variables that will need to be encoded and for columns that might eventually define our features and target variables.
 We will then drop the “EIN” (Employer Identification Number) and “NAME” columns from the DataFrame, because they’re irrelevant for the binary classification model.
